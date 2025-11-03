@@ -1,0 +1,42 @@
+        {% include 'title.html' %}
+    
+    {% include 'opportunities.html' %}
+  
+    {% include 'pricing.html' %}
+
+    {% include 'pricing.html' %}
+
+    {% include 'store.html' %} 
+
+    {% include 'gallery.html' %} 
+
+    {% include 'testimonials.html' %} 
+
+    {% include 'contact.html' %} 
+
+    {% include 'footer.html' %}
+    
+    {% include 'footer.html' %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <li><a href="{% url 'home' %}">Возможности</a></li>
+                <li><a href="{% url 'home' %}">Тарифы</a></li>
+                <li><a href="{% url 'store' %}">Магазин ключей</a></li>
+                <li><a href="{% url 'home' %}">Галерея</a></li>
+                <li><a href="{% url 'home' %}">Отзывы</a></li>
+                <li><a href="{% url 'home' %}">Контакты</a></li>
